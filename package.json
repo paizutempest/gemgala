@@ -1,0 +1,20 @@
+{
+  "name": "gemgala-deep-ocean",
+  "version": "1.0.0",
+  "description": "Gemgala Auto Register & Refferal Bot",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "@inquirer/prompts": "^3.3.0",
+    "axios": "^1.6.2",
+    "chalk": "^4.1.2",
+    "dayjs": "^1.11.10",
+    "gradient-string": "^2.0.2",
+    "playwright": "^1.43.1",
+    "table": "^6.8.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Paizutempest"
+}
