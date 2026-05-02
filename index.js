@@ -414,7 +414,7 @@ async function startRegister(referralUid, count) {
     if (err.response) console.log(err.response.data); // Ini akan memunculkan pesan asli dari server Gemgala
 }
         console.log(chalk.gray("--------------------------------------------------"));
-        await new Promise(r => setTimeout(r, 5000)); // Delay antar akun
+        await new Promise(r => setTimeout(r, 5000)); // Delay antar akun 5 detik
     }
 }
 
